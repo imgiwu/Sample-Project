@@ -1,0 +1,95 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    background-color: green;
+    color: white;
+}
+header{
+    width: 50;
+    height: auto;
+    background: none;
+}
+header div{
+    padding: 10px;
+    display: inline-block;
+}
+header div img{
+    width: 30%;
+    height: auto;
+}
+header div h1{
+    display: auto;
+    align-items: center;
+    color: rgb(255, 196, 0);
+    font-size: 90px;
+    float: right;
+    margin-top: 250px;
+}
+header nav{
+    display: auto;
+    float: right;
+    margin-top: 80px;
+}
+header nav li{
+    display: inline-block;
+    font-size: 32px;
+    margin-right: 40px;
+    margin-left: 15px;
+}
+header nav li a{
+    text-decoration: none;
+    color: rgb(34, 49, 2);
+}
+
+header div form input{
+   display: inline-flex;
+   margin-bottom: 6rem;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   flex-basis: 15%;
+}
+section{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+}
+section article{
+    margin-top: 40px;
+    margin-left: 15;
+
+}
+section article div{
+    width: 80%;
+    display: inline-block;
+}
+section article div h1{
+    color: gold;
+}
+section article img{
+    width: 8%;
+    display: inline-block;
+}
+
+aside{
+    width: 27%;
+    display: inline-block;
+    vertical-align: top;
+}
+aside article img{
+   width: 25%;
+
+}
+section article div footer{
+    text-align: right;
+}
+#footer{
+   background-color: red;
+   color:black;
+   text-align: center;
+   padding-top: 10px;
+   height: 35px;
+}
